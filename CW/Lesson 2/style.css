@@ -1,0 +1,13 @@
+p{
+    color: red;
+}
+.yellow-text{
+    color: rgb(99, 99, 23);
+    font-size: 30px;
+}
+.font-size-30{
+    font-size: 30px;
+}
+#gold{
+    color: gold;
+}
