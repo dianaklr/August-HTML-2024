@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+        #section-home{
+            /* width: 100vw; */
+            height: 100vh;
+            background-color: yellow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #section-about{
+            height: 100vh;
+            background-color: pink;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #section-info{
+            height: 100vh;
+            background-color: lightskyblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div a{
+            text-decoration: none;
+            color: white;
+            font-size: 2em;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="section-home">
+        <a href="#section-about">bottom</a>
+    </div>
+    <div id="section-about">
+        <a href="#section-info">bottom</a>
+    </div>
+    <div id="section-info">
+        <a href="#section-home">top</a>
+    </div>
+</body>
+</html>

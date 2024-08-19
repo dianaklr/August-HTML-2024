@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+/* -------------------header------------------------ */
+.active-link{
+    color: darkolivegreen;
+}
+header{
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Orbitron", sans-serif;
+}
+header div{
+    text-align: center;
+}
+header div h3{
+    font-size: 16px;
+}
+header nav ul{
+   display: flex; 
+   gap: 20px;
+}
+header nav a{
+    color: gray;
+    font-size: 20px;
+}
+/* ---------------main------------ */
+
+main{
+    height: 90vh;
+    background-image: url('https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?q=80&w=2948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Orbitron", sans-serif;
+    padding-top: 50px;
+}
+main p{
+    font-size: 20px;
+}
+main h1{
+    font-size: 100px;
+    letter-spacing: 30px;
+    margin: 20px;
+}
+main button{
+    width: 160px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    transition: 1s;
+    margin-top: 20px;
+}
+
+main button:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
