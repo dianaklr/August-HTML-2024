@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+        sup{
+            color: red;
+        }
+        textarea{
+            resize: none;
+            width: 300px;
+        }
+        input[type="text"],
+        input[type="number"]{
+          width: 200px;
+          background-color: aquamarine;  
+        }
+        input[type="password"]:focus{
+            outline: 3px solid hotpink;
+            border: 1px solid hotpink;
+            border-radius: 2px;
+            color: yellow;
+        }
+        input[type="password"]{
+            border: 1px solid brown;
+        }
+        input::placeholder{
+            color: pink;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        input[type="checkbox"]{
+            appearance: none;
+            width: 16px;
+            height: 16px;
+            border: 1px solid salmon;
+            border-radius: 2px;
+            margin-bottom: 0;
+        }
+        input[type="checkbox"]:checked{
+            background-image: url('https://d9c81ad3-85af-4ff6-8378-6038ea045e1b.akamaized.net/2022/12/201318071737267799.jpg');
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="name">Введіть своє ім'я </label>
+        <input type="text" name="username" id="name" placeholder="Василь" required> <sup>*</sup>
+
+        <label for="password">Введіть cвій пароль </label>
+        <input type="password" name="password" id="password" placeholder="qwerty123" required> <sup>*</sup>
+
+        <label for="email">Введіть cвій email </label>
+        <input type="email" name="email" id="email" placeholder="example@gmail.com" required> <sup>*</sup>
+
+        <label for="age">Введіть cвій вік </label>
+        <input type="number" name="age" id="age" min="18" max="100" > 
+
+        <label>Стать:</label>
+        <label> <input type="radio" id="female" name="gender"> Жіноча</label>
+        <label> <input type="radio" id="male" name="gender"> Чоловіча</label>
+        
+        <label >
+            <input type="checkbox" name="newsletter"> Підписуюсь на новини
+        </label>
+    
+
+    <label for="">lorem</label>
+    <select>
+        <!-- <option value="">Оберіть країну</option> -->
+        <option value="ua">Україна</option>
+        <option value="usa">США</option>
+        <option value="ca">Канада</option>
+        <option value="uk">Великобританія</option>
+    </select>
+
+    <label for="comment">Введіть свій коментар:</label>
+    <textarea name="comment" id="comment" rows="4" cols="25"></textarea>
+    
+    <div>
+        <input type="submit" value="Тиць">
+        <input type="reset" value="Тиць-двічі">
+    </div>
+</form>
+</body>
+</html>
