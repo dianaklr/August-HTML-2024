@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+
+        * {
+            margin: 0;
+        }
+
+
+        @keyframes asd {
+
+            0% {
+                width: 200px;
+                background: #000;
+
+            }
+
+            50% {
+                background: cornflowerblue;
+                width: 400px;
+
+            }
+
+            100% {
+                background: #000;
+                width: 200px;
+            }
+
+        }
+
+
+        .target {
+            width: 200px;
+            height: 200px;
+            background: #000;
+            animation-name: asd;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+    </style>
+</head>
+<body>
+
+<div class="target"></div>
+
+
+</body>
+</html>
