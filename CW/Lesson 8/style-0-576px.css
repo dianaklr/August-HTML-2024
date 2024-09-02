@@ -1,0 +1,24 @@
+@media screen and (max-width:576px){
+  header, footer{
+    height: 5vh;
+  }
+  section, main{
+    width: 100vh;
+    height: 20vh;
+  }
+  .flex-wrapper{
+    flex-direction: column;
+  }
+  aside{
+    display: block;
+    width: 100vw;
+    height: 30vh;
+    background: #B3E4EE;
+  }
+  header p::after{
+    content: "смартфон";
+}
+    section p{
+        display: block;
+    }
+}

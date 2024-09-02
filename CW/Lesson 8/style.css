@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, footer{
+    width: 100vw;
+    height: 10vh;
+    background: #D9D9D9;
+}
+section{
+    width: 20vw;
+    height: 80vh;
+    background: #ACA8A8;
+}
+main{
+    width: 60vw;
+    height: 80vh;
+    background: #737070;
+}
+.flex-wrapper{
+    display: flex;
+}
+aside{
+    display: none;
+}
+header p::after{
+    content: "ноутбук";
+}
+section p{
+    display: none;
+}
